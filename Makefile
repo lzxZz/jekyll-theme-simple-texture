@@ -10,6 +10,6 @@ release:
 
 
 push:
-	# git add .
+	git add .
 	git commit -m "push提交时间:`date +%Y-%m-%d-%02k-%M`"
-	# eco 提交时间:`date +%Y-%m-%d-%02k-%M`
+	echo 提交时间:`date +%Y-%m-%d-%02k-%M`
