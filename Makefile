@@ -7,7 +7,7 @@ run:
 release:
 	jekyll build
 	cp _site/* gitpages/ -r
-	cd gitpages  &&	git add . &&  git commit -m "push提交时间:`date +%Y-%m-%d-%02k-%M`" && git push && git push pages master 
+	cd gitpages  &&	git add . &&  git commit -m "push提交时间:`date +%Y-%m-%d-%02k-%M`" &&  git push pages master 
 	echo "博客发布成功"
 
 
