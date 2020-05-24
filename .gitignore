@@ -17,5 +17,5 @@ yarn.lock
 /doc
 .yardoc/
 
-
+/.jekyll-cache
 /gitpages
